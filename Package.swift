@@ -60,12 +60,8 @@ let package = Package(
             branch: "feature/android-shim"
         ),
         .package(
-          url: "https://github.com/apple/swift-log",
-          from: "1.6.3"
-        ),
-        .package(
-            url: "https://github.com/apple/swift-system",
-            from: "1.5.0"
+            url: "https://github.com/PureSwift/JavaLang.git",
+            branch: "master"
         )
     ],
     targets: [
@@ -82,7 +78,32 @@ let package = Package(
                 .product(
                     name: "JavaKitCollection",
                     package: "swift-java"
-                )
+                ),
+                .product(
+                    name: "JavaKitIO",
+                    package: "swift-java"
+                ),
+                .product(
+                    name: "JavaKitNetwork",
+                    package: "swift-java"
+                ),
+                .product(
+                    name: "JavaKitFunction",
+                    package: "swift-java"
+                ),
+                .product(
+                    name: "JavaKitReflection",
+                    package: "swift-java"
+                ),
+                .product(
+                    name: "JavaLang",
+                    package: "JavaLang"
+                ),
+                .product(
+                    name: "JavaUtil",
+                    package: "JavaLang"
+                ),
+                "Kotlin"
             ],
             exclude: ["swift-java.config"],
             swiftSettings: [
@@ -93,6 +114,6 @@ let package = Package(
         .testTarget(
             name: "KotlinTests",
             dependencies: ["Kotlin"]
-        ),
+        )
     ]
 )
