@@ -17,8 +17,8 @@ open class UShort: JavaObject {
   @JavaMethod
   open func compareTo(_ arg0: JavaObject?) -> Int32
 
-  @JavaMethod
-  open func `unbox-impl`() -> Int16
+//  @JavaMethod
+//  open func `unbox-impl`() -> Int16
 }
 extension JavaClass<UShort> {
   @JavaStaticField(isFinal: true)

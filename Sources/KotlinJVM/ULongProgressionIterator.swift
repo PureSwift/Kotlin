@@ -17,6 +17,6 @@ open class ULongProgressionIterator: JavaObject {
   @JavaMethod
   open func next() -> JavaObject!
 
-  @JavaMethod
-  open func `next-s-VKNKU`() -> Int64
+//  @JavaMethod
+//  open func `next-s-VKNKU`() -> Int64
 }

@@ -29,7 +29,7 @@ open class EmptyMap: JavaObject {
   open override func toString() -> String
 
   @JavaMethod
-  open func values() -> JavaCollection!
+  open func values() -> JavaCollection<JavaObject>
 
   @JavaMethod
   open override func hashCode() -> Int32
@@ -68,7 +68,7 @@ open class EmptyMap: JavaObject {
   open func getKeys() -> JavaSet<JavaObject>!
 
   @JavaMethod
-  open func getValues() -> JavaCollection!
+  open func getValues() -> JavaCollection<JavaObject>
 }
 extension JavaClass<EmptyMap> {
   @JavaStaticField(isFinal: true)

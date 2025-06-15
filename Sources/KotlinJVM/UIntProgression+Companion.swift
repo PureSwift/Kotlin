@@ -8,7 +8,7 @@ extension UIntProgression {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: DefaultConstructorMarker?, environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func `fromClosedRange-Nkh28Cs`(_ arg0: Int32, _ arg1: Int32, _ arg2: Int32) -> UIntProgression!
+//  @JavaMethod
+//  open func `fromClosedRange-Nkh28Cs`(_ arg0: Int32, _ arg1: Int32, _ arg2: Int32) -> UIntProgression!
   }
 }

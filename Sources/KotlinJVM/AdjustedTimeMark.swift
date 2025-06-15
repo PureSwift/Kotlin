@@ -22,6 +22,6 @@ open class AdjustedTimeMark: JavaObject {
 @JavaMethod
   open func hasNotPassedNow() -> Bool
 
-  @JavaMethod
-  open func `getAdjustment-UwyO8pc`() -> Int64
+//  @JavaMethod
+//  open func `getAdjustment-UwyO8pc`() -> Int64
 }

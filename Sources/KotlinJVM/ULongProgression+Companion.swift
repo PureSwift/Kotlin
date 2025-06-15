@@ -8,7 +8,7 @@ extension ULongProgression {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: DefaultConstructorMarker?, environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func `fromClosedRange-7ftBX0g`(_ arg0: Int64, _ arg1: Int64, _ arg2: Int64) -> ULongProgression!
+//  @JavaMethod
+//  open func `fromClosedRange-7ftBX0g`(_ arg0: Int64, _ arg1: Int64, _ arg2: Int64) -> ULongProgression!
   }
 }

@@ -30,10 +30,10 @@ extension JavaClass<TypeIntrinsics> {
   public func beforeCheckcastToFunctionOfArity(_ arg0: JavaObject?, _ arg1: Int32, _ arg2: String) -> JavaObject!
 
   @JavaStaticMethod
-  public func asMutableCollection(_ arg0: JavaObject?) -> JavaCollection!
+  public func asMutableCollection(_ arg0: JavaObject?) -> JavaCollection<JavaObject>
 
   @JavaStaticMethod
-  public func asMutableCollection(_ arg0: JavaObject?, _ arg1: String) -> JavaCollection!
+  public func asMutableCollection(_ arg0: JavaObject?, _ arg1: String) -> JavaCollection<JavaObject>
 
   @JavaStaticMethod
   public func asMutableMapEntry(_ arg0: JavaObject?, _ arg1: String) -> Map.Entry!
@@ -78,7 +78,7 @@ extension JavaClass<TypeIntrinsics> {
   public func castToIterable(_ arg0: JavaObject?) -> Iterable!
 
   @JavaStaticMethod
-  public func castToCollection(_ arg0: JavaObject?) -> JavaCollection!
+  public func castToCollection(_ arg0: JavaObject?) -> JavaCollection<JavaObject>
 
   @JavaStaticMethod
   public func isMutableList(_ arg0: JavaObject?) -> Bool
