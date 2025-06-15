@@ -11,8 +11,8 @@ extension ClosedRange {
 }
 extension JavaClass<ClosedRange.DefaultImpls> {
   @JavaStaticMethod
-  public func isEmpty(_ arg0: ClosedRange<Comparable<JavaObject>>?) -> Bool
+  public func isEmpty(_ arg0: ClosedRange<Comparable>?) -> Bool
 
   @JavaStaticMethod
-  public func contains(_ arg0: ClosedRange<Comparable<JavaObject>>?, _ arg1: Comparable<JavaObject>?) -> Bool
+  public func contains(_ arg0: ClosedRange<Comparable>?, _ arg1: Comparable?) -> Bool
 }

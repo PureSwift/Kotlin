@@ -7,17 +7,17 @@ open class AdjustedTimeMark: JavaObject {
   @JavaMethod
   open func getMark() -> TimeMark!
 
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
+  // @JavaMethod
+//  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
 
-@JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
+// @JavaMethod
+//  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
 
 @JavaMethod
   open func hasPassedNow() -> Bool
 
-  @JavaMethod
-  open func`elapsedNow-UwyO8pc`() -> Int64
+  // @JavaMethod
+//  open func`elapsedNow-UwyO8pc`() -> Int64
 
 @JavaMethod
   open func hasNotPassedNow() -> Bool

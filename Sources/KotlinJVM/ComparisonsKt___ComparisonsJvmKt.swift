@@ -13,7 +13,7 @@ extension JavaClass<ComparisonsKt___ComparisonsJvmKt> {
   public func maxOf(_ arg0: Int8, _ arg1: [Int8]) -> Int8
 
   @JavaStaticMethod
-  public func maxOf(_ arg0: Comparable<JavaObject>?, _ arg1: [Comparable<JavaObject>?]) -> Comparable<JavaObject>!
+  public func maxOf(_ arg0: Comparable?, _ arg1: [Comparable?]) -> Comparable!
 
   @JavaStaticMethod
   public func maxOf(_ arg0: Double, _ arg1: [Double]) -> Double
@@ -31,13 +31,13 @@ extension JavaClass<ComparisonsKt___ComparisonsJvmKt> {
   public func maxOf(_ arg0: Int16, _ arg1: [Int16]) -> Int16
 
   @JavaStaticMethod
-  public func maxOf(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> Comparable<JavaObject>!
+  public func maxOf(_ arg0: Comparable?, _ arg1: Comparable?) -> Comparable!
 
   @JavaStaticMethod
-  public func maxOf(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?, _ arg2: Comparable<JavaObject>?) -> Comparable<JavaObject>!
+  public func maxOf(_ arg0: Comparable?, _ arg1: Comparable?, _ arg2: Comparable?) -> Comparable!
 
   @JavaStaticMethod
-  public func minOf(_ arg0: Comparable<JavaObject>?, _ arg1: [Comparable<JavaObject>?]) -> Comparable<JavaObject>!
+  public func minOf(_ arg0: Comparable?, _ arg1: [Comparable?]) -> Comparable!
 
   @JavaStaticMethod
   public func minOf(_ arg0: Int8, _ arg1: [Int8]) -> Int8
@@ -58,8 +58,8 @@ extension JavaClass<ComparisonsKt___ComparisonsJvmKt> {
   public func minOf(_ arg0: Int16, _ arg1: [Int16]) -> Int16
 
   @JavaStaticMethod
-  public func minOf(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> Comparable<JavaObject>!
+  public func minOf(_ arg0: Comparable?, _ arg1: Comparable?) -> Comparable!
 
   @JavaStaticMethod
-  public func minOf(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?, _ arg2: Comparable<JavaObject>?) -> Comparable<JavaObject>!
+  public func minOf(_ arg0: Comparable?, _ arg1: Comparable?, _ arg2: Comparable?) -> Comparable!
 }

@@ -4,16 +4,8 @@ import JavaRuntime
 
 @JavaInterface("kotlin.time.TimeMark")
 public struct TimeMark {
+
   @JavaMethod
-  public func`elapsedNow-UwyO8pc`() -> Int64
-
-@JavaMethod
-  public func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
-
-@JavaMethod
-  public func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
-
-@JavaMethod
   public func hasPassedNow() -> Bool
 
   @JavaMethod

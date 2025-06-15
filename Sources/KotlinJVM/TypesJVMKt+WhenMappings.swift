@@ -8,7 +8,3 @@ extension TypesJVMKt {
 
   }
 }
-extension JavaClass<TypesJVMKt.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-}

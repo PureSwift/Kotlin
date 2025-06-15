@@ -11,8 +11,8 @@ extension OpenEndRange {
 }
 extension JavaClass<OpenEndRange.DefaultImpls> {
   @JavaStaticMethod
-  public func isEmpty(_ arg0: OpenEndRange<Comparable<JavaObject>>?) -> Bool
+  public func isEmpty(_ arg0: OpenEndRange<Comparable>?) -> Bool
 
   @JavaStaticMethod
-  public func contains(_ arg0: OpenEndRange<Comparable<JavaObject>>?, _ arg1: Comparable<JavaObject>?) -> Bool
+  public func contains(_ arg0: OpenEndRange<Comparable>?, _ arg1: Comparable?) -> Bool
 }

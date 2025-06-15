@@ -23,18 +23,6 @@ open class UIntRange: UIntProgression {
   @JavaMethod
   open func contains(_ arg0: Comparable?) -> Bool
 
-  @JavaMethod
-  open func`getEndInclusive-pVg5ArA`() -> Int32
-
-@JavaMethod
-  open func`getEndExclusive-pVg5ArA`() -> Int32
-
-@JavaMethod
-  open func`getStart-pVg5ArA`() -> Int32
-
-@JavaMethod
-  open func`contains-WZ4Q5Ns`(_ arg0: Int32) -> Bool
-
 @JavaMethod
   open func getEndExclusive() -> Comparable!
 
@@ -47,13 +35,4 @@ open class UIntRange: UIntProgression {
 extension JavaClass<UIntRange> {
   @JavaStaticField(isFinal: true)
   public var Companion: UIntRange.Companion!
-
-  @JavaStaticField(isFinal: true)
-  public var Companion: UIntProgression.Companion!
-
-  @JavaStaticMethod
-  public func`getEndExclusive-pVg5ArA$annotations`()
-
-@JavaStaticMethod
-  public func access$getEMPTY$cp() -> UIntRange!
 }

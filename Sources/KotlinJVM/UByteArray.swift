@@ -55,59 +55,9 @@ open class UByteArray: JavaObject {
 
   @JavaMethod
   open func containsAll(_ arg0: JavaCollection<JavaObject>?) -> Bool
-
-  @JavaMethod
-  open func`unbox-impl`() -> [Int8]
-
-@JavaMethod
-  open func`contains-7apg3OU`(_ arg0: Int8) -> Bool
-
-@JavaMethod
-  open func `add-7apg3OU`(_ arg0: Int8) -> Bool
 }
 extension JavaClass<UByteArray> {
   @JavaStaticMethod
   public func getStorage$annotations()
 
-  @JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: [Int8]) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: [Int8], _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: [Int8], _ arg1: [Int8]) -> Bool
-
-@JavaStaticMethod
-  public func`getSize-impl`(_ arg0: [Int8]) -> Int32
-
-@JavaStaticMethod
-  public func`get-w2LRezQ`(_ arg0: [Int8], _ arg1: Int32) -> Int8
-
-@JavaStaticMethod
-  public func`set-VurrAj0`(_ arg0: [Int8], _ arg1: Int32, _ arg2: Int8)
-
-@JavaStaticMethod
-  public func`iterator-impl`(_ arg0: [Int8]) -> JavaIterator<UByte>!
-
-@JavaStaticMethod
-  public func`contains-7apg3OU`(_ arg0: [Int8], _ arg1: Int8) -> Bool
-
-@JavaStaticMethod
-  public func`containsAll-impl`(_ arg0: [Int8], _ arg1: JavaCollection<UByte>?) -> Bool
-
-@JavaStaticMethod
-  public func`isEmpty-impl`(_ arg0: [Int8]) -> Bool
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: [Int8]) -> String
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: [Int8]) -> UByteArray!
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int32) -> [Int8]
-
-@JavaStaticMethod
-  public func `constructor-impl`(_ arg0: [Int8]) -> [Int8]
 }

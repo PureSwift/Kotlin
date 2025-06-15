@@ -9,8 +9,8 @@ extension UIntArray {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: [Int32], environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func`next-pVg5ArA`() -> Int32
+  // @JavaMethod
+//  open func`next-pVg5ArA`() -> Int32
 
   @JavaMethod
   open func remove()

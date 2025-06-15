@@ -11,8 +11,8 @@ extension Uuid {
   @JavaMethod
   open func fromLongs(_ arg0: Int64, _ arg1: Int64) -> Uuid!
 
-  @JavaMethod
-  open func`fromULongs-eb3DHEI`(_ arg0: Int64, _ arg1: Int64) -> Uuid!
+  // @JavaMethod
+//  open func`fromULongs-eb3DHEI`(_ arg0: Int64, _ arg1: Int64) -> Uuid!
 
   @JavaMethod
   open func fromByteArray(_ arg0: [Int8]) -> Uuid!

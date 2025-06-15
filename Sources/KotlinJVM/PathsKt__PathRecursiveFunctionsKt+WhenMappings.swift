@@ -8,10 +8,3 @@ extension PathsKt__PathRecursiveFunctionsKt {
 
   }
 }
-extension JavaClass<PathsKt__PathRecursiveFunctionsKt.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$1: [Int32]
-}

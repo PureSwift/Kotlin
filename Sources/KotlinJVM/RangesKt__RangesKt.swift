@@ -13,7 +13,7 @@ extension JavaClass<RangesKt__RangesKt> {
   public func checkStepIsPositive(_ arg0: Bool, _ arg1: JavaNumber?)
 
   @JavaStaticMethod
-  public func rangeTo(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> ClosedRange<Comparable<JavaObject>>!
+  public func rangeTo(_ arg0: Comparable?, _ arg1: Comparable?) -> ClosedRange<Comparable>!
 
   @JavaStaticMethod
   public func rangeTo(_ arg0: Double, _ arg1: Double) -> ClosedFloatingPointRange<JavaDouble>!
@@ -25,7 +25,7 @@ extension JavaClass<RangesKt__RangesKt> {
   public func rangeUntil(_ arg0: Float, _ arg1: Float) -> OpenEndRange<JavaFloat>!
 
   @JavaStaticMethod
-  public func rangeUntil(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> OpenEndRange<Comparable<JavaObject>>!
+  public func rangeUntil(_ arg0: Comparable?, _ arg1: Comparable?) -> OpenEndRange<Comparable>!
 
   @JavaStaticMethod
   public func rangeUntil(_ arg0: Double, _ arg1: Double) -> OpenEndRange<JavaDouble>!

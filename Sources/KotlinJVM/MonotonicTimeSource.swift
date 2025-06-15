@@ -4,8 +4,8 @@ import JavaRuntime
 
 @JavaClass("kotlin.time.MonotonicTimeSource", implements: TimeSource.WithComparableMarks.self)
 open class MonotonicTimeSource: JavaObject {
-  @JavaMethod
-  open func`markNow-z9LOYto`() -> Int64
+  // @JavaMethod
+//  open func`markNow-z9LOYto`() -> Int64
 
 @JavaMethod
   open func markNow() -> ComparableTimeMark!
@@ -13,14 +13,14 @@ open class MonotonicTimeSource: JavaObject {
   @JavaMethod
   open func markNow() -> TimeMark!
 
-  @JavaMethod
-  open func`elapsedFrom-6eNON_k`(_ arg0: Int64) -> Int64
+  // @JavaMethod
+//  open func`elapsedFrom-6eNON_k`(_ arg0: Int64) -> Int64
 
-@JavaMethod
-  open func`differenceBetween-fRLX17w`(_ arg0: Int64, _ arg1: Int64) -> Int64
+// @JavaMethod
+//  open func`differenceBetween-fRLX17w`(_ arg0: Int64, _ arg1: Int64) -> Int64
 
-@JavaMethod
-  open func`adjustReading-6QKq23U`(_ arg0: Int64, _ arg1: Int64) -> Int64
+// @JavaMethod
+//  open func`adjustReading-6QKq23U`(_ arg0: Int64, _ arg1: Int64) -> Int64
 
 @JavaMethod
   open override func toString() -> String

@@ -17,7 +17,7 @@ extension JavaClass<CollectionsKt__CollectionsKt> {
   public func binarySearch(_ arg0: List<JavaObject>?, _ arg1: Int32, _ arg2: Int32, _ arg3: Function1<JavaObject, JavaInteger>?) -> Int32
 
   @JavaStaticMethod
-  public func binarySearch(_ arg0: List<Comparable<JavaObject>>?, _ arg1: Comparable<JavaObject>?, _ arg2: Int32, _ arg3: Int32) -> Int32
+  public func binarySearch(_ arg0: List<Comparable>?, _ arg1: Comparable?, _ arg2: Int32, _ arg3: Int32) -> Int32
 
   @JavaStaticMethod
   public func binarySearch$default(_ arg0: List?, _ arg1: Comparable?, _ arg2: Int32, _ arg3: Int32, _ arg4: Int32, _ arg5: JavaObject?) -> Int32
@@ -68,7 +68,7 @@ extension JavaClass<CollectionsKt__CollectionsKt> {
   public func shuffled(_ arg0: Iterable<JavaObject>?, _ arg1: Random?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func binarySearchBy(_ arg0: List<JavaObject>?, _ arg1: Comparable<JavaObject>?, _ arg2: Int32, _ arg3: Int32, _ arg4: Function1<JavaObject, Comparable<JavaObject>>?) -> Int32
+  public func binarySearchBy(_ arg0: List<JavaObject>?, _ arg1: Comparable?, _ arg2: Int32, _ arg3: Int32, _ arg4: Function1<JavaObject, Comparable>?) -> Int32
 
   @JavaStaticMethod
   public func throwCountOverflow()

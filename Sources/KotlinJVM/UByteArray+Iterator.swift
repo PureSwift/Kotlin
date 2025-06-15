@@ -9,8 +9,8 @@ extension UByteArray {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: [Int8], environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func`next-w2LRezQ`() -> Int8
+  // @JavaMethod
+//  open func`next-w2LRezQ`() -> Int8
 
   @JavaMethod
   open func remove()

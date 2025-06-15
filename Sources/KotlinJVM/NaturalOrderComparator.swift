@@ -6,7 +6,7 @@ import JavaRuntime
 @JavaClass("kotlin.comparisons.NaturalOrderComparator")
 open class NaturalOrderComparator: JavaObject {
   @JavaMethod
-  open func compare(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> Int32
+  open func compare(_ arg0: Comparable?, _ arg1: Comparable?) -> Int32
 
   @JavaMethod
   open func compare(_ arg0: JavaObject?, _ arg1: JavaObject?) -> Int32

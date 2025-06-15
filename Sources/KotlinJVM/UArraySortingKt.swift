@@ -7,15 +7,5 @@ open class UArraySortingKt: JavaObject {
 
 }
 extension JavaClass<UArraySortingKt> {
-  @JavaStaticMethod
-  public func`sortArray-4UcCI2c`(_ arg0: [Int8], _ arg1: Int32, _ arg2: Int32)
-
-@JavaStaticMethod
-  public func`sortArray-Aa5vz7o`(_ arg0: [Int16], _ arg1: Int32, _ arg2: Int32)
-
-@JavaStaticMethod
-  public func`sortArray-oBK06Vg`(_ arg0: [Int32], _ arg1: Int32, _ arg2: Int32)
-
-@JavaStaticMethod
-  public func `sortArray--nroSd4`(_ arg0: [Int64], _ arg1: Int32, _ arg2: Int32)
+  
 }

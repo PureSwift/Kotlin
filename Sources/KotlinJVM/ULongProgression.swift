@@ -5,11 +5,11 @@ import JavaRuntime
 
 @JavaClass("kotlin.ranges.ULongProgression")
 open class ULongProgression: JavaObject {
-  @JavaMethod
-  open func`getFirst-s-VKNKU`() -> Int64
+  // @JavaMethod
+//  open func`getFirst-s-VKNKU`() -> Int64
 
-@JavaMethod
-  open func`getLast-s-VKNKU`() -> Int64
+// @JavaMethod
+//  open func`getLast-s-VKNKU`() -> Int64
 
 @JavaMethod
   open func getStep() -> Int64

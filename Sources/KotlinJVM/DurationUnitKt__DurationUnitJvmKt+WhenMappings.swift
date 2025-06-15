@@ -8,7 +8,3 @@ extension DurationUnitKt__DurationUnitJvmKt {
 
   }
 }
-extension JavaClass<DurationUnitKt__DurationUnitJvmKt.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-}

@@ -19,84 +19,11 @@ extension TimeSource.Monotonic {
 
   @JavaMethod
   open func compareTo(_ arg0: JavaObject?) -> Int32
-
-  @JavaMethod
-  open func`unbox-impl`() -> Int64
-
-  @JavaMethod
-  open func`elapsedNow-UwyO8pc`() -> Int64
-
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
-
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> Int64
-
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
-
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> Int64
-
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
-
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
-
-  @JavaMethod
-  open func`minus-UwyO8pc`(_ arg0: ComparableTimeMark?) -> Int64
-
+  
   @JavaMethod
   open func hasPassedNow() -> Bool
 
   @JavaMethod
   open func hasNotPassedNow() -> Bool
   }
-}
-extension JavaClass<TimeSource.Monotonic.ValueTimeMark> {
-  @JavaStaticMethod
-  public func`hasNotPassedNow-impl`(_ arg0: Int64) -> Bool
-
-@JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: Int64) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: Int64, _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: Int64, _ arg1: Int64) -> Bool
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: Int64) -> String
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: Int64) -> TimeSource.Monotonic.ValueTimeMark!
-
-@JavaStaticMethod
-  public func`elapsedNow-UwyO8pc`(_ arg0: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`minus-LRDsOJo`(_ arg0: Int64, _ arg1: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`plus-LRDsOJo`(_ arg0: Int64, _ arg1: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`minus-UwyO8pc`(_ arg0: Int64, _ arg1: ComparableTimeMark?) -> Int64
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`hasPassedNow-impl`(_ arg0: Int64) -> Bool
-
-@JavaStaticMethod
-  public func`minus-6eNON_k`(_ arg0: Int64, _ arg1: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`compareTo-6eNON_k`(_ arg0: Int64, _ arg1: Int64) -> Int32
-
-@JavaStaticMethod
-  public func `compareTo-impl`(_ arg0: Int64, _ arg1: ComparableTimeMark?) -> Int32
 }

@@ -9,9 +9,7 @@ extension ComparableTimeMark {
   }
 }
 extension JavaClass<ComparableTimeMark.DefaultImpls> {
-  @JavaStaticMethod
-  public func`minus-LRDsOJo`(_ arg0: ComparableTimeMark?, _ arg1: Int64) -> ComparableTimeMark!
-
+  
 @JavaStaticMethod
   public func hasPassedNow(_ arg0: ComparableTimeMark?) -> Bool
 

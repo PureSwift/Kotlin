@@ -5,8 +5,8 @@ import JavaRuntime
 
 @JavaClass("kotlin.ULong", implements: Comparable<ULong>.self)
 open class ULong: JavaObject {
-  @JavaMethod
-  open func`unbox-impl`() -> Int64
+  // @JavaMethod
+//  open func`unbox-impl`() -> Int64
 
 @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool
@@ -35,24 +35,6 @@ extension JavaClass<ULong> {
 
   @JavaStaticField(isFinal: true)
   public var SIZE_BITS: Int32
-
-  @JavaStaticMethod
-  public func`toString-impl`(_ arg0: Int64) -> String
-
-@JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: Int64) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: Int64, _ arg1: Int64) -> Bool
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: Int64) -> ULong!
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: Int64, _ arg1: JavaObject?) -> Bool
 
 @JavaStaticMethod
   public func getData$annotations()

@@ -9,8 +9,8 @@ extension ULongArray {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: [Int64], environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func`next-s-VKNKU`() -> Int64
+  // @JavaMethod
+//  open func`next-s-VKNKU`() -> Int64
 
   @JavaMethod
   open func remove()

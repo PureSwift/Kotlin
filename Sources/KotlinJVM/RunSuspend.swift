@@ -10,8 +10,8 @@ open class RunSuspend: JavaObject {
   @JavaMethod
   open func resumeWith(_ arg0: JavaObject?)
 
-  @JavaMethod
-  open func`getResult-xLWZpok`() -> Result<Unit>!
+  // @JavaMethod
+//  open func`getResult-xLWZpok`() -> Result<Unit>!
 
 @JavaMethod
   open func await()

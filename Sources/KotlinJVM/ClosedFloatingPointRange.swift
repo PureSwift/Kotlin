@@ -3,20 +3,20 @@ import JavaKit
 import JavaLang
 import JavaRuntime
 
-@JavaInterface("kotlin.ranges.ClosedFloatingPointRange", extends: ClosedRange<Comparable<JavaObject>>.self)
+@JavaInterface("kotlin.ranges.ClosedFloatingPointRange", extends: ClosedRange<Comparable>.self)
 public struct ClosedFloatingPointRange<T: AnyJavaObject> {
   @JavaMethod
-  public func lessThanOrEquals(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> Bool
+  public func lessThanOrEquals(_ arg0: Comparable?, _ arg1: Comparable?) -> Bool
 
   @JavaMethod
   public func isEmpty() -> Bool
 
   @JavaMethod
-  public func contains(_ arg0: Comparable<JavaObject>?) -> Bool
+  public func contains(_ arg0: Comparable?) -> Bool
 
   @JavaMethod
-  public func getStart() -> Comparable<JavaObject>!
+  public func getStart() -> Comparable!
 
   @JavaMethod
-  public func getEndInclusive() -> Comparable<JavaObject>!
+  public func getEndInclusive() -> Comparable!
 }

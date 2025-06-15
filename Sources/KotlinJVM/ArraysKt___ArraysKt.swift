@@ -831,7 +831,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func sorted(_ arg0: [UInt16]) -> List<JavaCharacter>!
 
   @JavaStaticMethod
-  public func sorted(_ arg0: [Comparable<JavaObject>?]) -> List<Comparable<JavaObject>>!
+  public func sorted(_ arg0: [Comparable?]) -> List<Comparable>!
 
   @JavaStaticMethod
   public func sorted(_ arg0: [Int8]) -> List<JavaByte>!
@@ -1245,7 +1245,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func sortedArrayDescending(_ arg0: [UInt16]) -> [UInt16]
 
   @JavaStaticMethod
-  public func sortedArrayDescending(_ arg0: [Comparable<JavaObject>?]) -> [Comparable<JavaObject>?]
+  public func sortedArrayDescending(_ arg0: [Comparable?]) -> [Comparable?]
 
   @JavaStaticMethod
   public func sortedArrayDescending(_ arg0: [Int8]) -> [Int8]
@@ -1467,7 +1467,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func maxOrThrow(_ arg0: [JavaFloat?]) -> Float
 
   @JavaStaticMethod
-  public func maxOrThrow(_ arg0: [Comparable<JavaObject>?]) -> Comparable<JavaObject>!
+  public func maxOrThrow(_ arg0: [Comparable?]) -> Comparable!
 
   @JavaStaticMethod
   public func maxOrThrow(_ arg0: [Int8]) -> Int8
@@ -1476,58 +1476,58 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func maxOrThrow(_ arg0: [Int16]) -> Int16
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxByOrThrow(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int32
+  public func maxByOrThrow(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable>?) -> Int32
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Float
+  public func maxByOrThrow(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable>?) -> Float
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Double
+  public func maxByOrThrow(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable>?) -> Double
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Bool
+  public func maxByOrThrow(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable>?) -> Bool
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> UInt16
+  public func maxByOrThrow(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable>?) -> UInt16
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int8
+  public func maxByOrThrow(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable>?) -> Int8
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int16
+  public func maxByOrThrow(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable>?) -> Int16
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int64
+  public func maxByOrThrow(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable>?) -> Int64
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaDouble!
+  public func maxByOrNull(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable>?) -> JavaDouble!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaFloat!
+  public func maxByOrNull(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable>?) -> JavaFloat!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaLong!
+  public func maxByOrNull(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable>?) -> JavaLong!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaBoolean!
+  public func maxByOrNull(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable>?) -> JavaBoolean!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaCharacter!
+  public func maxByOrNull(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable>?) -> JavaCharacter!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxByOrNull(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaByte!
+  public func maxByOrNull(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable>?) -> JavaByte!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaShort!
+  public func maxByOrNull(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable>?) -> JavaShort!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaInteger!
+  public func maxByOrNull(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable>?) -> JavaInteger!
 
   @JavaStaticMethod
   public func maxOrNull(_ arg0: [Int64]) -> JavaLong!
@@ -1551,7 +1551,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func maxOrNull(_ arg0: [JavaFloat?]) -> JavaFloat!
 
   @JavaStaticMethod
-  public func maxOrNull(_ arg0: [Comparable<JavaObject>?]) -> Comparable<JavaObject>!
+  public func maxOrNull(_ arg0: [Comparable?]) -> Comparable!
 
   @JavaStaticMethod
   public func maxOrNull(_ arg0: [Int8]) -> JavaByte!
@@ -1581,7 +1581,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func minOrThrow(_ arg0: [JavaFloat?]) -> Float
 
   @JavaStaticMethod
-  public func minOrThrow(_ arg0: [Comparable<JavaObject>?]) -> Comparable<JavaObject>!
+  public func minOrThrow(_ arg0: [Comparable?]) -> Comparable!
 
   @JavaStaticMethod
   public func minOrThrow(_ arg0: [Int8]) -> Int8
@@ -1590,58 +1590,58 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func minOrThrow(_ arg0: [Int16]) -> Int16
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Float
+  public func minByOrThrow(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable>?) -> Float
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Double
+  public func minByOrThrow(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable>?) -> Double
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int64
+  public func minByOrThrow(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable>?) -> Int64
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Bool
+  public func minByOrThrow(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable>?) -> Bool
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> UInt16
+  public func minByOrThrow(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable>?) -> UInt16
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minByOrThrow(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int8
+  public func minByOrThrow(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable>?) -> Int8
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int16
+  public func minByOrThrow(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable>?) -> Int16
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Int32
+  public func minByOrThrow(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable>?) -> Int32
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaFloat!
+  public func minByOrNull(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable>?) -> JavaFloat!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaDouble!
+  public func minByOrNull(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable>?) -> JavaDouble!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaLong!
+  public func minByOrNull(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable>?) -> JavaLong!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaBoolean!
+  public func minByOrNull(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable>?) -> JavaBoolean!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaCharacter!
+  public func minByOrNull(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable>?) -> JavaCharacter!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minByOrNull(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaByte!
+  public func minByOrNull(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable>?) -> JavaByte!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaShort!
+  public func minByOrNull(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable>?) -> JavaShort!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaInteger!
+  public func minByOrNull(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable>?) -> JavaInteger!
 
   @JavaStaticMethod
   public func minOrNull(_ arg0: [Double]) -> JavaDouble!
@@ -1659,7 +1659,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func minOrNull(_ arg0: [Int8]) -> JavaByte!
 
   @JavaStaticMethod
-  public func minOrNull(_ arg0: [Comparable<JavaObject>?]) -> Comparable<JavaObject>!
+  public func minOrNull(_ arg0: [Comparable?]) -> Comparable!
 
   @JavaStaticMethod
   public func minOrNull(_ arg0: [Int64]) -> JavaLong!
@@ -2808,10 +2808,10 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func reversedArray(_ arg0: [Int16]) -> [Int16]
 
   @JavaStaticMethod
-  public func sortBy(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?)
+  public func sortBy(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?)
 
   @JavaStaticMethod
-  public func sortByDescending(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?)
+  public func sortByDescending(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?)
 
   @JavaStaticMethod
   public func sortDescending(_ arg0: [Double])
@@ -2850,10 +2850,10 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func sortDescending(_ arg0: [Int8])
 
   @JavaStaticMethod
-  public func sortDescending(_ arg0: [Comparable<JavaObject>?])
+  public func sortDescending(_ arg0: [Comparable?])
 
   @JavaStaticMethod
-  public func sortDescending(_ arg0: [Comparable<JavaObject>?], _ arg1: Int32, _ arg2: Int32)
+  public func sortDescending(_ arg0: [Comparable?], _ arg1: Int32, _ arg2: Int32)
 
   @JavaStaticMethod
   public func sortDescending(_ arg0: [Int8], _ arg1: Int32, _ arg2: Int32)
@@ -2865,7 +2865,7 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func sortedArray(_ arg0: [Int64]) -> [Int64]
 
   @JavaStaticMethod
-  public func sortedArray(_ arg0: [Comparable<JavaObject>?]) -> [Comparable<JavaObject>?]
+  public func sortedArray(_ arg0: [Comparable?]) -> [Comparable?]
 
   @JavaStaticMethod
   public func sortedArray(_ arg0: [Int32]) -> [Int32]
@@ -2886,64 +2886,64 @@ extension JavaClass<ArraysKt___ArraysKt> {
   public func sortedArray(_ arg0: [Double]) -> [Double]
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaShort>!
+  public func sortedBy(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaShort>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaInteger>!
+  public func sortedBy(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaInteger>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaFloat>!
+  public func sortedBy(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaFloat>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaLong>!
+  public func sortedBy(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaLong>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaObject>!
+  public func sortedBy(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaCharacter>!
+  public func sortedBy(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaCharacter>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaBoolean>!
+  public func sortedBy(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaBoolean>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaDouble>!
+  public func sortedBy(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaDouble>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaByte>!
+  public func sortedBy(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaByte>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaCharacter>!
+  public func sortedByDescending(_ arg0: [UInt16], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaCharacter>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaObject>!
+  public func sortedByDescending(_ arg0: [JavaObject?], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaBoolean>!
+  public func sortedByDescending(_ arg0: [Bool], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaBoolean>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaDouble>!
+  public func sortedByDescending(_ arg0: [Double], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaDouble>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaByte>!
+  public func sortedByDescending(_ arg0: [Int8], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaByte>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaShort>!
+  public func sortedByDescending(_ arg0: [Int16], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaShort>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaInteger>!
+  public func sortedByDescending(_ arg0: [Int32], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaInteger>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaLong>!
+  public func sortedByDescending(_ arg0: [Int64], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaLong>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaFloat>!
+  public func sortedByDescending(_ arg0: [Float], _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaFloat>!
 
   @JavaStaticMethod
   public func sortedDescending(_ arg0: [Int8]) -> List<JavaByte>!
 
   @JavaStaticMethod
-  public func sortedDescending(_ arg0: [Comparable<JavaObject>?]) -> List<Comparable<JavaObject>>!
+  public func sortedDescending(_ arg0: [Comparable?]) -> List<Comparable>!
 
   @JavaStaticMethod
   public func sortedDescending(_ arg0: [UInt16]) -> List<JavaCharacter>!

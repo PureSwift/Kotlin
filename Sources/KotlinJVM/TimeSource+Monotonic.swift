@@ -11,8 +11,8 @@ extension TimeSource {
   @JavaMethod
   open func markNow() -> ComparableTimeMark!
 
-  @JavaMethod
-  open func`markNow-z9LOYto`() -> Int64
+  // @JavaMethod
+//  open func`markNow-z9LOYto`() -> Int64
 
   @JavaMethod
   open override func toString() -> String

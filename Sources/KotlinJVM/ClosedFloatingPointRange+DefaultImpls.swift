@@ -11,8 +11,8 @@ extension ClosedFloatingPointRange {
 }
 extension JavaClass<ClosedFloatingPointRange.DefaultImpls> {
   @JavaStaticMethod
-  public func isEmpty(_ arg0: ClosedFloatingPointRange<Comparable<JavaObject>>?) -> Bool
+  public func isEmpty(_ arg0: ClosedFloatingPointRange<Comparable>?) -> Bool
 
   @JavaStaticMethod
-  public func contains(_ arg0: ClosedFloatingPointRange<Comparable<JavaObject>>?, _ arg1: Comparable<JavaObject>?) -> Bool
+  public func contains(_ arg0: ClosedFloatingPointRange<Comparable>?, _ arg1: Comparable?) -> Bool
 }

@@ -16,8 +16,8 @@ extension JavaClass<StringsKt___StringsJvmKt> {
   public func max(_ arg0: CharSequence?) -> JavaCharacter!
 
   @JavaStaticMethod
-  public func maxBy(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaCharacter!
+  public func maxBy(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaCharacter!
 
   @JavaStaticMethod
-  public func minBy(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaCharacter!
+  public func minBy(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaCharacter!
 }

@@ -5,8 +5,8 @@ import JavaRuntime
 
 @JavaClass("kotlin.ranges.UIntProgressionIterator", implements: JavaIterator<UInt>.self)
 open class UIntProgressionIterator: JavaObject {
-  @JavaMethod
-  open func`next-pVg5ArA`() -> Int32
+  // @JavaMethod
+//  open func`next-pVg5ArA`() -> Int32
 
 @JavaMethod
   open func remove()

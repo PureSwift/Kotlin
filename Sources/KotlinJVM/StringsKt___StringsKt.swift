@@ -180,10 +180,10 @@ extension JavaClass<StringsKt___StringsKt> {
   public func maxOrThrow(_ arg0: CharSequence?) -> UInt16
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> UInt16
+  public func maxByOrThrow(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable>?) -> UInt16
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaCharacter!
+  public func maxByOrNull(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaCharacter!
 
   @JavaStaticMethod
   public func maxOrNull(_ arg0: CharSequence?) -> JavaCharacter!
@@ -192,10 +192,10 @@ extension JavaClass<StringsKt___StringsKt> {
   public func minOrThrow(_ arg0: CharSequence?) -> UInt16
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> UInt16
+  public func minByOrThrow(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable>?) -> UInt16
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaCharacter!
+  public func minByOrNull(_ arg0: CharSequence?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaCharacter!
 
   @JavaStaticMethod
   public func none(_ arg0: CharSequence?) -> Bool

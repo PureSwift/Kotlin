@@ -7,25 +7,14 @@ open class UnsignedKt: JavaObject {
 
 }
 extension JavaClass<UnsignedKt> {
+  
   @JavaStaticMethod
-  public func`ulongDivide-eb3DHEI`(_ arg0: Int64, _ arg1: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`ulongRemainder-eb3DHEI`(_ arg0: Int64, _ arg1: Int64) -> Int64
-
-@JavaStaticMethod
-  public func`uintRemainder-J1ME1BU`(_ arg0: Int32, _ arg1: Int32) -> Int32
-
-@JavaStaticMethod
   public func ulongToString(_ arg0: Int64, _ arg1: Int32) -> String
 
   @JavaStaticMethod
   public func uintCompare(_ arg0: Int32, _ arg1: Int32) -> Int32
 
   @JavaStaticMethod
-  public func`uintDivide-J1ME1BU`(_ arg0: Int32, _ arg1: Int32) -> Int32
-
-@JavaStaticMethod
   public func uintToDouble(_ arg0: Int32) -> Double
 
   @JavaStaticMethod

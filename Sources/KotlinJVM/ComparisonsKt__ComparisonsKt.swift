@@ -10,8 +10,8 @@ open class ComparisonsKt__ComparisonsKt: JavaObject {
 }
 extension JavaClass<ComparisonsKt__ComparisonsKt> {
   @JavaStaticMethod
-  public func compareValues(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?) -> Int32
+  public func compareValues(_ arg0: Comparable?, _ arg1: Comparable?) -> Int32
 
   @JavaStaticMethod
-  public func compareValuesBy(_ arg0: JavaObject?, _ arg1: JavaObject?, _ arg2: [Function1<JavaObject, Comparable<JavaObject>>?]) -> Int32
+  public func compareValuesBy(_ arg0: JavaObject?, _ arg1: JavaObject?, _ arg2: [Function1<JavaObject, Comparable>?]) -> Int32
 }

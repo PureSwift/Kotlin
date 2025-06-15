@@ -90,9 +90,6 @@ extension JavaClass {
   @JavaStaticMethod
   public func access$getLength$p<E: AnyJavaObject>(_ arg0: ListBuilder?) -> Int32 where ObjectType == ListBuilder<E>
 
-  @JavaStaticMethod
-  public func`access$getModCount$p$s-2084097795`<E: AnyJavaObject>(_ arg0: ListBuilder?) -> Int32 where ObjectType == ListBuilder<E>
-
 @JavaStaticMethod
   public func access$getBacking$p<E: AnyJavaObject>(_ arg0: ListBuilder?) -> [JavaObject?] where ObjectType == ListBuilder<E>
 

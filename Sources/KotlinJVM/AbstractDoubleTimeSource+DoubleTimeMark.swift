@@ -5,29 +5,29 @@ import JavaRuntime
 extension AbstractDoubleTimeSource {
   @JavaClass("kotlin.time.AbstractDoubleTimeSource$DoubleTimeMark", implements: ComparableTimeMark.self)
   open class DoubleTimeMark: JavaObject {
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
+  // @JavaMethod
+//  open func`plus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
 
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
+  // @JavaMethod
+//  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
 
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
+  // @JavaMethod
+//  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
 
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
+  // @JavaMethod
+//  open func`minus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
 
   @JavaMethod
   open func hasPassedNow() -> Bool
 
-  @JavaMethod
-  open func`elapsedNow-UwyO8pc`() -> Int64
+  // @JavaMethod
+//  open func`elapsedNow-UwyO8pc`() -> Int64
 
   @JavaMethod
   open func hasNotPassedNow() -> Bool
 
-  @JavaMethod
-  open func`minus-UwyO8pc`(_ arg0: ComparableTimeMark?) -> Int64
+  // @JavaMethod
+//  open func`minus-UwyO8pc`(_ arg0: ComparableTimeMark?) -> Int64
 
   @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool

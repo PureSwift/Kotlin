@@ -3,16 +3,16 @@ import JavaKit
 import JavaLang
 import JavaRuntime
 
-@JavaClass("kotlin.ranges.ComparableRange", implements: ClosedRange<Comparable<JavaObject>>.self)
+@JavaClass("kotlin.ranges.ComparableRange", implements: ClosedRange<Comparable>.self)
 open class ComparableRange<T: AnyJavaObject>: JavaObject {
   @JavaMethod
-  @_nonoverride public convenience init(_ arg0: Comparable<JavaObject>?, _ arg1: Comparable<JavaObject>?, environment: JNIEnvironment? = nil)
+  @_nonoverride public convenience init(_ arg0: Comparable?, _ arg1: Comparable?, environment: JNIEnvironment? = nil)
 
   @JavaMethod
-  open func getStart() -> Comparable<JavaObject>!
+  open func getStart() -> Comparable!
 
   @JavaMethod
-  open func getEndInclusive() -> Comparable<JavaObject>!
+  open func getEndInclusive() -> Comparable!
 
   @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool
@@ -27,5 +27,5 @@ open class ComparableRange<T: AnyJavaObject>: JavaObject {
   open func isEmpty() -> Bool
 
   @JavaMethod
-  open func contains(_ arg0: Comparable<JavaObject>?) -> Bool
+  open func contains(_ arg0: Comparable?) -> Bool
 }

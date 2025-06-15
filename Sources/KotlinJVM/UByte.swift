@@ -4,8 +4,8 @@ import JavaRuntime
 
 @JavaClass("kotlin.UByte")
 open class UByte: JavaObject {
-  @JavaMethod
-  open func`unbox-impl`() -> Int8
+  // @JavaMethod
+//  open func`unbox-impl`() -> Int8
 
 @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool
@@ -34,24 +34,6 @@ extension JavaClass<UByte> {
 
   @JavaStaticField(isFinal: true)
   public var SIZE_BITS: Int32
-
-  @JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int8) -> Int8
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: Int8) -> UByte!
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: Int8) -> String
-
-@JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: Int8) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: Int8, _ arg1: Int8) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: Int8, _ arg1: JavaObject?) -> Bool
 
 @JavaStaticMethod
   public func getData$annotations()

@@ -9,8 +9,8 @@ extension UShortArray {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: [Int16], environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func`next-Mh2AYeg`() -> Int16
+  // @JavaMethod
+//  open func`next-Mh2AYeg`() -> Int16
 
   @JavaMethod
   open func remove()

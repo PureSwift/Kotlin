@@ -8,7 +8,3 @@ extension KTypeProjection {
 
   }
 }
-extension JavaClass<KTypeProjection.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-}

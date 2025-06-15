@@ -38,8 +38,8 @@ extension JavaClass<CollectionsKt___CollectionsJvmKt> {
   public func reverse(_ arg0: List<JavaObject>?)
 
   @JavaStaticMethod
-  public func maxBy(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxBy(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func minBy(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minBy(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 }

@@ -7,18 +7,6 @@ open class UStringsKt: JavaObject {
 
 }
 extension JavaClass<UStringsKt> {
-  @JavaStaticMethod
-  public func`toString-LxnNnR4`(_ arg0: Int8, _ arg1: Int32) -> String
-
-@JavaStaticMethod
-  public func`toString-olVBNx4`(_ arg0: Int16, _ arg1: Int32) -> String
-
-@JavaStaticMethod
-  public func`toString-V7xB4Y4`(_ arg0: Int32, _ arg1: Int32) -> String
-
-@JavaStaticMethod
-  public func`toString-JSWoG40`(_ arg0: Int64, _ arg1: Int32) -> String
-
 @JavaStaticMethod
   public func toUByte(_ arg0: String, _ arg1: Int32) -> Int8
 

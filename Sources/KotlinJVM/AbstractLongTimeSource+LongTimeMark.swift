@@ -23,23 +23,23 @@ extension AbstractLongTimeSource {
   @JavaMethod
   open func compareTo(_ arg0: JavaObject?) -> Int32
 
-  @JavaMethod
-  open func`elapsedNow-UwyO8pc`() -> Int64
+  // @JavaMethod
+//  open func`elapsedNow-UwyO8pc`() -> Int64
 
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
+  // @JavaMethod
+//  open func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
 
-  @JavaMethod
-  open func`minus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
+  // @JavaMethod
+//  open func`minus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
 
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
+  // @JavaMethod
+//  open func`plus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
 
-  @JavaMethod
-  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
+  // @JavaMethod
+//  open func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
 
-  @JavaMethod
-  open func`minus-UwyO8pc`(_ arg0: ComparableTimeMark?) -> Int64
+  // @JavaMethod
+//  open func`minus-UwyO8pc`(_ arg0: ComparableTimeMark?) -> Int64
 
   @JavaMethod
   open func hasPassedNow() -> Bool

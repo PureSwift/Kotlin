@@ -21,7 +21,7 @@ extension JavaClass<SequencesKt___SequencesKt> {
   public func minOrNull(_ arg0: Sequence<JavaDouble>?) -> JavaDouble!
 
   @JavaStaticMethod
-  public func minOrNull(_ arg0: Sequence<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func minOrNull(_ arg0: Sequence<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func minOrNull(_ arg0: Sequence<JavaFloat>?) -> JavaFloat!
@@ -153,7 +153,7 @@ extension JavaClass<SequencesKt___SequencesKt> {
   public func forEachIndexed(_ arg0: Sequence<JavaObject>?, _ arg1: Function2<JavaObject, JavaObject, Unit>?)
 
   @JavaStaticMethod
-  public func maxOrThrow(_ arg0: Sequence<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func maxOrThrow(_ arg0: Sequence<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func maxOrThrow(_ arg0: Sequence<JavaDouble>?) -> Double
@@ -162,16 +162,16 @@ extension JavaClass<SequencesKt___SequencesKt> {
   public func maxOrThrow(_ arg0: Sequence<JavaFloat>?) -> Float
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxByOrThrow(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxByOrNull(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
   public func maxOrNull(_ arg0: Sequence<JavaFloat>?) -> JavaFloat!
 
   @JavaStaticMethod
-  public func maxOrNull(_ arg0: Sequence<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func maxOrNull(_ arg0: Sequence<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func maxOrNull(_ arg0: Sequence<JavaDouble>?) -> JavaDouble!
@@ -183,13 +183,13 @@ extension JavaClass<SequencesKt___SequencesKt> {
   public func minOrThrow(_ arg0: Sequence<JavaDouble>?) -> Double
 
   @JavaStaticMethod
-  public func minOrThrow(_ arg0: Sequence<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func minOrThrow(_ arg0: Sequence<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minByOrThrow(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minByOrNull(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
   public func none(_ arg0: Sequence<JavaObject>?) -> Bool
@@ -270,13 +270,13 @@ extension JavaClass<SequencesKt___SequencesKt> {
   public func asIterable(_ arg0: Sequence<JavaObject>?) -> Iterable<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Sequence<JavaObject>!
+  public func sortedBy(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> Sequence<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> Sequence<JavaObject>!
+  public func sortedByDescending(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> Sequence<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedDescending(_ arg0: Sequence<Comparable<JavaObject>>?) -> Sequence<Comparable<JavaObject>>!
+  public func sortedDescending(_ arg0: Sequence<Comparable>?) -> Sequence<Comparable>!
 
   @JavaStaticMethod
   public func flatMapIterable(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Iterable<JavaObject>>?) -> Sequence<JavaObject>!
@@ -411,7 +411,7 @@ extension JavaClass<SequencesKt___SequencesKt> {
   public func distinct(_ arg0: Sequence<JavaObject>?) -> Sequence<JavaObject>!
 
   @JavaStaticMethod
-  public func sorted(_ arg0: Sequence<Comparable<JavaObject>>?) -> Sequence<Comparable<JavaObject>>!
+  public func sorted(_ arg0: Sequence<Comparable>?) -> Sequence<Comparable>!
 
   @JavaStaticMethod
   public func scan(_ arg0: Sequence<JavaObject>?, _ arg1: JavaObject?, _ arg2: Function2<JavaObject, JavaObject, JavaObject>?) -> Sequence<JavaObject>!

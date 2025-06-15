@@ -11,5 +11,5 @@ open class CollectionsKt__MutableCollectionsJVMKt: CollectionsKt__IteratorsKt {
 }
 extension JavaClass<CollectionsKt__MutableCollectionsJVMKt> {
   @JavaStaticMethod
-  public func sort(_ arg0: List<Comparable<JavaObject>>?)
+  public func sort(_ arg0: List<Comparable>?)
 }

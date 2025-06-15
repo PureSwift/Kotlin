@@ -5,15 +5,7 @@ import JavaRuntime
 
 @JavaClass("kotlin.ULongArray", implements: JavaCollection<ULong>.self)
 open class ULongArray: JavaObject {
-  @JavaMethod
-  open func`add-VKZWuLQ`(_ arg0: Int64) -> Bool
-
-@JavaMethod
-  open func`unbox-impl`() -> [Int64]
-
-@JavaMethod
-  open func`contains-VKZWuLQ`(_ arg0: Int64) -> Bool
-
+  
 @JavaMethod
   open func remove(_ arg0: JavaObject?) -> Bool
 
@@ -64,50 +56,4 @@ open class ULongArray: JavaObject {
 
   @JavaMethod
   open func containsAll(_ arg0: JavaCollection<JavaObject>?) -> Bool
-}
-extension JavaClass<ULongArray> {
-  @JavaStaticMethod
-  public func`iterator-impl`(_ arg0: [Int64]) -> JavaIterator<ULong>!
-
-@JavaStaticMethod
-  public func`containsAll-impl`(_ arg0: [Int64], _ arg1: JavaCollection<ULong>?) -> Bool
-
-@JavaStaticMethod
-  public func`isEmpty-impl`(_ arg0: [Int64]) -> Bool
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: [Int64]) -> [Int64]
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int32) -> [Int64]
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: [Int64]) -> ULongArray!
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: [Int64]) -> String
-
-@JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: [Int64]) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: [Int64], _ arg1: [Int64]) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: [Int64], _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`getSize-impl`(_ arg0: [Int64]) -> Int32
-
-@JavaStaticMethod
-  public func`contains-VKZWuLQ`(_ arg0: [Int64], _ arg1: Int64) -> Bool
-
-@JavaStaticMethod
-  public func`get-s-VKNKU`(_ arg0: [Int64], _ arg1: Int32) -> Int64
-
-@JavaStaticMethod
-  public func`set-k8EXiF4`(_ arg0: [Int64], _ arg1: Int32, _ arg2: Int64)
-
-@JavaStaticMethod
-  public func getStorage$annotations()
 }

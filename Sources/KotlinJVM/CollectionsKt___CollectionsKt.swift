@@ -120,7 +120,7 @@ extension JavaClass<CollectionsKt___CollectionsKt> {
   public func distinct(_ arg0: Iterable<JavaObject>?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func sorted(_ arg0: Iterable<Comparable<JavaObject>>?) -> List<Comparable<JavaObject>>!
+  public func sorted(_ arg0: Iterable<Comparable>?) -> List<Comparable>!
 
   @JavaStaticMethod
   public func scan(_ arg0: Iterable<JavaObject>?, _ arg1: JavaObject?, _ arg2: Function2<JavaObject, JavaObject, JavaObject>?) -> List<JavaObject>!
@@ -237,16 +237,16 @@ extension JavaClass<CollectionsKt___CollectionsKt> {
   public func maxOrThrow(_ arg0: Iterable<JavaFloat>?) -> Float
 
   @JavaStaticMethod
-  public func maxOrThrow(_ arg0: Iterable<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func maxOrThrow(_ arg0: Iterable<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func maxOrThrow(_ arg0: Iterable<JavaDouble>?) -> Double
 
   @JavaStaticMethod
-  public func maxByOrThrow(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxByOrThrow(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func maxByOrNull(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxByOrNull(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
   public func maxOrNull(_ arg0: Iterable<JavaDouble>?) -> JavaDouble!
@@ -255,28 +255,28 @@ extension JavaClass<CollectionsKt___CollectionsKt> {
   public func maxOrNull(_ arg0: Iterable<JavaFloat>?) -> JavaFloat!
 
   @JavaStaticMethod
-  public func maxOrNull(_ arg0: Iterable<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func maxOrNull(_ arg0: Iterable<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func minOrThrow(_ arg0: Iterable<JavaDouble>?) -> Double
 
   @JavaStaticMethod
-  public func minOrThrow(_ arg0: Iterable<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func minOrThrow(_ arg0: Iterable<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func minOrThrow(_ arg0: Iterable<JavaFloat>?) -> Float
 
   @JavaStaticMethod
-  public func minByOrThrow(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minByOrThrow(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func minByOrNull(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minByOrNull(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
   public func minOrNull(_ arg0: Iterable<JavaFloat>?) -> JavaFloat!
 
   @JavaStaticMethod
-  public func minOrNull(_ arg0: Iterable<Comparable<JavaObject>>?) -> Comparable<JavaObject>!
+  public func minOrNull(_ arg0: Iterable<Comparable>?) -> Comparable!
 
   @JavaStaticMethod
   public func minOrNull(_ arg0: Iterable<JavaDouble>?) -> JavaDouble!
@@ -507,22 +507,22 @@ extension JavaClass<CollectionsKt___CollectionsKt> {
   public func toMutableList(_ arg0: JavaCollection<JavaObject>?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func sortBy(_ arg0: List<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?)
+  public func sortBy(_ arg0: List<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?)
 
   @JavaStaticMethod
-  public func sortByDescending(_ arg0: List<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?)
+  public func sortByDescending(_ arg0: List<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?)
 
   @JavaStaticMethod
-  public func sortDescending(_ arg0: List<Comparable<JavaObject>>?)
+  public func sortDescending(_ arg0: List<Comparable>?)
 
   @JavaStaticMethod
-  public func sortedBy(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaObject>!
+  public func sortedBy(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedByDescending(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> List<JavaObject>!
+  public func sortedByDescending(_ arg0: Iterable<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> List<JavaObject>!
 
   @JavaStaticMethod
-  public func sortedDescending(_ arg0: Iterable<Comparable<JavaObject>>?) -> List<Comparable<JavaObject>>!
+  public func sortedDescending(_ arg0: Iterable<Comparable>?) -> List<Comparable>!
 
   @JavaStaticMethod
   public func toBooleanArray(_ arg0: JavaCollection<JavaBoolean>?) -> [Bool]

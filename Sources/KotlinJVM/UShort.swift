@@ -39,21 +39,4 @@ extension JavaClass<UShort> {
   @JavaStaticMethod
   public func getData$annotations()
 
-  @JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: Int16) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: Int16, _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: Int16, _ arg1: Int16) -> Bool
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: Int16) -> String
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: Int16) -> UShort!
-
-@JavaStaticMethod
-  public func `constructor-impl`(_ arg0: Int16) -> Int16
 }

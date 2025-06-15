@@ -7,17 +7,17 @@ open class TimedValue<T: AnyJavaObject>: JavaObject {
   @JavaMethod
   @_nonoverride public convenience init(_ arg0: JavaObject?, _ arg1: Int64, _ arg2: DefaultConstructorMarker?, environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func`getDuration-UwyO8pc`() -> Int64
+  // @JavaMethod
+//  open func`getDuration-UwyO8pc`() -> Int64
 
 @JavaMethod
   open func component1() -> JavaObject!
 
-  @JavaMethod
-  open func`component2-UwyO8pc`() -> Int64
+  // @JavaMethod
+//  open func`component2-UwyO8pc`() -> Int64
 
-@JavaMethod
-  open func`copy-RFiDyg4`(_ arg0: JavaObject?, _ arg1: Int64) -> TimedValue<JavaObject>!
+// @JavaMethod
+//  open func`copy-RFiDyg4`(_ arg0: JavaObject?, _ arg1: Int64) -> TimedValue<JavaObject>!
 
 @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool

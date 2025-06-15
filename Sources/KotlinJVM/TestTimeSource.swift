@@ -7,8 +7,8 @@ open class TestTimeSource: AbstractLongTimeSource {
   @JavaMethod
   @_nonoverride public convenience init(environment: JNIEnvironment? = nil)
 
-  @JavaMethod
-  open func`plusAssign-LRDsOJo`(_ arg0: Int64)
+  // @JavaMethod
+//  open func`plusAssign-LRDsOJo`(_ arg0: Int64)
 
 @JavaMethod
   open override func read() -> Int64

@@ -8,7 +8,3 @@ extension LazyKt__LazyJVMKt {
 
   }
 }
-extension JavaClass<LazyKt__LazyJVMKt.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-}

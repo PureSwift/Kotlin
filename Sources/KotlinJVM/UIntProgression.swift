@@ -8,11 +8,11 @@ open class UIntProgression: JavaObject {
   @JavaMethod
   open func getStep() -> Int32
 
-  @JavaMethod
-  open func`getFirst-pVg5ArA`() -> Int32
+  // @JavaMethod
+//  open func`getFirst-pVg5ArA`() -> Int32
 
-@JavaMethod
-  open func`getLast-pVg5ArA`() -> Int32
+// @JavaMethod
+//  open func`getLast-pVg5ArA`() -> Int32
 
 @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool

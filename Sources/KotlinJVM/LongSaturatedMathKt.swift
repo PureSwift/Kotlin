@@ -10,9 +10,6 @@ extension JavaClass<LongSaturatedMathKt> {
   @JavaStaticMethod
   public func saturatingOriginsDiff(_ arg0: Int64, _ arg1: Int64, _ arg2: DurationUnit?) -> Int64
 
-  @JavaStaticMethod
-  public func`saturatingAdd-NuflL3o`(_ arg0: Int64, _ arg1: DurationUnit?, _ arg2: Int64) -> Int64
-
 @JavaStaticMethod
   public func saturatingDiff(_ arg0: Int64, _ arg1: Int64, _ arg2: DurationUnit?) -> Int64
 

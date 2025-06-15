@@ -9,12 +9,7 @@ extension TimeMark {
   }
 }
 extension JavaClass<TimeMark.DefaultImpls> {
-  @JavaStaticMethod
-  public func`plus-LRDsOJo`(_ arg0: TimeMark?, _ arg1: Int64) -> TimeMark!
-
-@JavaStaticMethod
-  public func`minus-LRDsOJo`(_ arg0: TimeMark?, _ arg1: Int64) -> TimeMark!
-
+  
 @JavaStaticMethod
   public func hasPassedNow(_ arg0: TimeMark?) -> Bool
 

@@ -5,14 +5,14 @@ import JavaRuntime
 
 @JavaClass("kotlin.UShortArray", implements: JavaCollection<UShort>.self)
 open class UShortArray: JavaObject {
-  @JavaMethod
-  open func`contains-xj2QHRw`(_ arg0: Int16) -> Bool
+  // @JavaMethod
+//  open func`contains-xj2QHRw`(_ arg0: Int16) -> Bool
 
-@JavaMethod
-  open func`unbox-impl`() -> [Int16]
+// @JavaMethod
+//  open func`unbox-impl`() -> [Int16]
 
-@JavaMethod
-  open func`add-xj2QHRw`(_ arg0: Int16) -> Bool
+// @JavaMethod
+//  open func`add-xj2QHRw`(_ arg0: Int16) -> Bool
 
 @JavaMethod
   open func remove(_ arg0: JavaObject?) -> Bool
@@ -64,50 +64,4 @@ open class UShortArray: JavaObject {
 
   @JavaMethod
   open func containsAll(_ arg0: JavaCollection<JavaObject>?) -> Bool
-}
-extension JavaClass<UShortArray> {
-  @JavaStaticMethod
-  public func`constructor-impl`(_ arg0: [Int16]) -> [Int16]
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int32) -> [Int16]
-
-@JavaStaticMethod
-  public func getStorage$annotations()
-
-  @JavaStaticMethod
-  public func`get-Mh2AYeg`(_ arg0: [Int16], _ arg1: Int32) -> Int16
-
-@JavaStaticMethod
-  public func`set-01HTLdE`(_ arg0: [Int16], _ arg1: Int32, _ arg2: Int16)
-
-@JavaStaticMethod
-  public func`getSize-impl`(_ arg0: [Int16]) -> Int32
-
-@JavaStaticMethod
-  public func`iterator-impl`(_ arg0: [Int16]) -> JavaIterator<UShort>!
-
-@JavaStaticMethod
-  public func`contains-xj2QHRw`(_ arg0: [Int16], _ arg1: Int16) -> Bool
-
-@JavaStaticMethod
-  public func`containsAll-impl`(_ arg0: [Int16], _ arg1: JavaCollection<UShort>?) -> Bool
-
-@JavaStaticMethod
-  public func`isEmpty-impl`(_ arg0: [Int16]) -> Bool
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: [Int16]) -> String
-
-@JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: [Int16]) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: [Int16], _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: [Int16]) -> UShortArray!
-
-@JavaStaticMethod
-  public func `equals-impl0`(_ arg0: [Int16], _ arg1: [Int16]) -> Bool
 }

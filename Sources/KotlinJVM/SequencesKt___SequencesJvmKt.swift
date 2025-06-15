@@ -35,8 +35,8 @@ extension JavaClass<SequencesKt___SequencesJvmKt> {
   public func max(_ arg0: Sequence?) -> Comparable!
 
   @JavaStaticMethod
-  public func maxBy(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func maxBy(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 
   @JavaStaticMethod
-  public func minBy(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable<JavaObject>>?) -> JavaObject!
+  public func minBy(_ arg0: Sequence<JavaObject>?, _ arg1: Function1<JavaObject, Comparable>?) -> JavaObject!
 }

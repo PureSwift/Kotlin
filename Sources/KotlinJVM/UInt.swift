@@ -16,9 +16,6 @@ open class UInt: JavaObject {
 
   @JavaMethod
   open func compareTo(_ arg0: JavaObject?) -> Int32
-
-  @JavaMethod
-  open func `unbox-impl`() -> Int32
 }
 extension JavaClass<UInt> {
   @JavaStaticField(isFinal: true)
@@ -39,21 +36,4 @@ extension JavaClass<UInt> {
   @JavaStaticMethod
   public func getData$annotations()
 
-  @JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: Int32) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: Int32, _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: Int32, _ arg1: Int32) -> Bool
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: Int32) -> String
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: Int32) -> UInt!
-
-@JavaStaticMethod
-  public func `constructor-impl`(_ arg0: Int32) -> Int32
 }

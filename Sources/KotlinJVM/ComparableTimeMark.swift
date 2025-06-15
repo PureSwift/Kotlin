@@ -14,24 +14,6 @@ public struct ComparableTimeMark {
   @JavaMethod
   public func compareTo(_ arg0: ComparableTimeMark?) -> Int32
 
-  @JavaMethod
-  public func`minus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
-
-@JavaMethod
-  public func`minus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
-
-@JavaMethod
-  public func`plus-LRDsOJo`(_ arg0: Int64) -> ComparableTimeMark!
-
-@JavaMethod
-  public func`plus-LRDsOJo`(_ arg0: Int64) -> TimeMark!
-
-@JavaMethod
-  public func`minus-UwyO8pc`(_ arg0: ComparableTimeMark?) -> Int64
-
-@JavaMethod
-  public func`elapsedNow-UwyO8pc`() -> Int64
-
 @JavaMethod
   public func hasPassedNow() -> Bool
 

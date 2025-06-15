@@ -8,7 +8,3 @@ extension TypeReference {
 
   }
 }
-extension JavaClass<TypeReference.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-}

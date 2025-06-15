@@ -8,7 +8,3 @@ extension FileTreeWalk.FileTreeWalkIterator {
 
   }
 }
-extension JavaClass<FileTreeWalk.FileTreeWalkIterator.WhenMappings> {
-  @JavaStaticField(isFinal: true)
-  public var $EnumSwitchMapping$0: [Int32]
-}

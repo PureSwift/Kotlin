@@ -4,8 +4,6 @@ import JavaRuntime
 
 @JavaClass("kotlin.Result")
 open class Result<T: AnyJavaObject>: JavaObject {
-  @JavaMethod
-  open func`unbox-impl`() -> JavaObject!
 
 @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool
@@ -19,33 +17,6 @@ open class Result<T: AnyJavaObject>: JavaObject {
 extension JavaClass {
   @JavaStaticField(isFinal: true)
   public var Companion: Result.Companion!
-
-  @JavaStaticMethod
-  public func`constructor-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> JavaObject! where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`box-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> Result! where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`toString-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> String where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`hashCode-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> Int32 where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`equals-impl0`<T: AnyJavaObject>(_ arg0: JavaObject?, _ arg1: JavaObject?) -> Bool where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`equals-impl`<T: AnyJavaObject>(_ arg0: JavaObject?, _ arg1: JavaObject?) -> Bool where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`isFailure-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> Bool where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`isSuccess-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> Bool where ObjectType == Result<T>
-
-@JavaStaticMethod
-  public func`exceptionOrNull-impl`<T: AnyJavaObject>(_ arg0: JavaObject?) -> Throwable! where ObjectType == Result<T>
 
 @JavaStaticMethod
   public func getValue$annotations<T: AnyJavaObject>() where ObjectType == Result<T>

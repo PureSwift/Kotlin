@@ -4,17 +4,17 @@ import JavaRuntime
 
 @JavaClass("kotlin.ranges.ULongRange", implements: ClosedRange<ULong>.self, OpenEndRange<ULong>.self)
 open class ULongRange: ULongProgression {
-  @JavaMethod
-  open func`contains-VKZWuLQ`(_ arg0: Int64) -> Bool
+  // @JavaMethod
+//  open func`contains-VKZWuLQ`(_ arg0: Int64) -> Bool
 
-@JavaMethod
-  open func`getStart-s-VKNKU`() -> Int64
+// @JavaMethod
+//  open func`getStart-s-VKNKU`() -> Int64
 
-@JavaMethod
-  open func`getEndInclusive-s-VKNKU`() -> Int64
+// @JavaMethod
+//  open func`getEndInclusive-s-VKNKU`() -> Int64
 
-@JavaMethod
-  open func`getEndExclusive-s-VKNKU`() -> Int64
+// @JavaMethod
+//  open func`getEndExclusive-s-VKNKU`() -> Int64
 
 @JavaMethod
   open override func equals(_ arg0: JavaObject?) -> Bool

@@ -5,14 +5,14 @@ import JavaRuntime
 
 @JavaClass("kotlin.UIntArray", implements: JavaCollection<UInt>.self)
 open class UIntArray: JavaObject {
-  @JavaMethod
-  open func`add-WZ4Q5Ns`(_ arg0: Int32) -> Bool
+  // @JavaMethod
+//  open func`add-WZ4Q5Ns`(_ arg0: Int32) -> Bool
 
-@JavaMethod
-  open func`unbox-impl`() -> [Int32]
+// @JavaMethod
+//  open func`unbox-impl`() -> [Int32]
 
-@JavaMethod
-  open func`contains-WZ4Q5Ns`(_ arg0: Int32) -> Bool
+// @JavaMethod
+//  open func`contains-WZ4Q5Ns`(_ arg0: Int32) -> Bool
 
 @JavaMethod
   open func remove(_ arg0: JavaObject?) -> Bool
@@ -65,49 +65,6 @@ open class UIntArray: JavaObject {
   @JavaMethod
   open func containsAll(_ arg0: JavaCollection<JavaObject>?) -> Bool
 }
-extension JavaClass<UIntArray> {
-  @JavaStaticMethod
-  public func`iterator-impl`(_ arg0: [Int32]) -> JavaIterator<UInt>!
-
-@JavaStaticMethod
-  public func`containsAll-impl`(_ arg0: [Int32], _ arg1: JavaCollection<UInt>?) -> Bool
-
-@JavaStaticMethod
-  public func`isEmpty-impl`(_ arg0: [Int32]) -> Bool
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: [Int32]) -> [Int32]
-
-@JavaStaticMethod
-  public func`constructor-impl`(_ arg0: Int32) -> [Int32]
-
-@JavaStaticMethod
-  public func`box-impl`(_ arg0: [Int32]) -> UIntArray!
-
-@JavaStaticMethod
-  public func`toString-impl`(_ arg0: [Int32]) -> String
-
-@JavaStaticMethod
-  public func`hashCode-impl`(_ arg0: [Int32]) -> Int32
-
-@JavaStaticMethod
-  public func`equals-impl0`(_ arg0: [Int32], _ arg1: [Int32]) -> Bool
-
-@JavaStaticMethod
-  public func`equals-impl`(_ arg0: [Int32], _ arg1: JavaObject?) -> Bool
-
-@JavaStaticMethod
-  public func`getSize-impl`(_ arg0: [Int32]) -> Int32
-
-@JavaStaticMethod
-  public func`contains-WZ4Q5Ns`(_ arg0: [Int32], _ arg1: Int32) -> Bool
-
-@JavaStaticMethod
-  public func`get-pVg5ArA`(_ arg0: [Int32], _ arg1: Int32) -> Int32
-
-@JavaStaticMethod
-  public func`set-VXSXFK8`(_ arg0: [Int32], _ arg1: Int32, _ arg2: Int32)
-
 @JavaStaticMethod
   public func getStorage$annotations()
 }
