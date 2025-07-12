@@ -42,7 +42,7 @@ let javaIncludePath = "\(javaHome)/include"
 let package = Package(
     name: "Kotlin",
     platforms: [
-        .macOS(.v10_15)
+        .macOS(.v15)
     ],
     products: [
         .library(
