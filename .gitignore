@@ -65,3 +65,6 @@ fastlane/test_output
 
 # Java
 *.jar
+
+# VS Code
+.vscode
