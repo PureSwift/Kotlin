@@ -34,27 +34,23 @@ let package = Package(
             name: "KotlinJVM",
             dependencies: [
                 .product(
-                    name: "JavaKit",
+                    name: "SwiftJava",
                     package: "swift-java"
                 ),
                 .product(
-                    name: "JavaKitCollection",
+                    name: "JavaIO",
                     package: "swift-java"
                 ),
                 .product(
-                    name: "JavaKitIO",
+                    name: "JavaNet",
                     package: "swift-java"
                 ),
                 .product(
-                    name: "JavaKitNetwork",
+                    name: "JavaUtilFunction",
                     package: "swift-java"
                 ),
                 .product(
-                    name: "JavaKitFunction",
-                    package: "swift-java"
-                ),
-                .product(
-                    name: "JavaKitReflection",
+                    name: "JavaLangReflect",
                     package: "swift-java"
                 ),
                 .product(
@@ -62,7 +58,7 @@ let package = Package(
                     package: "JavaLang"
                 ),
                 .product(
-                    name: "JavaUtil",
+                    name: "JavaLangUtil",
                     package: "JavaLang"
                 ),
                 "Kotlin"
